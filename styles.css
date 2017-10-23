@@ -1,0 +1,73 @@
+/*default version*/
+@font-face {
+	font-family: 'theboldfont';
+	src: url('font/theboldfont.ttf'); 
+	src: 
+		local('theboldfont'),
+		url('font/theboldfont.ttf') 
+    format('truetype');
+  font-weight: bold;
+}
+
+.icon-pojok{
+    padding: 0px 0px 0px 20px;
+}
+
+.search-icon{
+    cursor: pointer;
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 500px; /* For at least Firefox */
+    min-height: 200px;
+    text-align: center;
+    background-image: url("img/truck.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.text-heading{
+  font-size: 50px;
+  font-family: 'theboldfont', sans-serif;
+  line-height: 40px;
+}
+.text-heading2{
+  font-size: 55px;
+  font-family: 'theboldfont', sans-serif;
+  line-height: 35px;
+}
+.text-desc{
+  width: 80%; 
+  margin-right: auto;
+  margin-left: auto;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+  padding-top: 100px;
+}
+  
+@media (max-width: 62em) {
+  .text-heading2{
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 40em) {
+  .text-heading{
+    line-height: 60px;
+  }
+  .text-heading2{
+    line-height: 60px;
+  }
+}
